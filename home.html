@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Pawar - Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Cursor Animation -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <svg class="company-logo" width="40" height="40" viewBox="0 0 40 40">
+                <path class="logo-path" d="M20 0C8.954 0 0 8.954 0 20s8.954 20 20 20 20-8.954 20-20S31.046 0 20 0zm0 4c8.837 0 16 7.163 16 16s-7.163 16-16 16S4 28.837 4 20 11.163 4 20 4z"/>
+                <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="logo-text">G</text>
+            </svg>
+            Gary<span class="highlight">Production</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-right">
+                <div class="greeting">Welcome to</div>
+                <h1><span class="highlight">Gary Production</span></h1>
+                <div class="typing-container">
+                    <span class="typing-text">Full Stack Development Company</span>
+                </div>
+                <p class="hero-description">Led by Om Pawar, we build exceptional digital experiences that combine creativity with technical expertise.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button primary">View Our Work</a>
+                    <a href="#contact" class="cta-button secondary">Let's Talk</a>
+                </div>
+                <div class="tech-stack">
+                    <span>Tech Stack:</span>
+                    <div class="tech-icons">
+                        <i class="fab fa-html5" title="HTML5"></i>
+                        <i class="fab fa-css3-alt" title="CSS3"></i>
+                        <i class="fab fa-js" title="JavaScript"></i>
+                        <i class="fab fa-react" title="React"></i>
+                        <i class="fab fa-node-js" title="Node.js"></i>
+                        <i class="fab fa-python" title="Python"></i>
+                        <i class="fab fa-php" title="PHP"></i>
+                        <i class="fab fa-java" title="Java"></i>
+                        <i class="fab fa-android" title="Android"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <div class="image-container">
+                    <img src="assets/developer image.jpg" alt="Om Pawar - Lead Developer at Gary Production" class="developer-image">
+                    <div class="floating-shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header" data-aos="fade-up">
+            <h2>About Us</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-right">
+                <p class="highlight-text">Building innovative digital solutions that drive business growth.</p>
+                <p>Gary Production is a dynamic software development company led by Om Pawar, specializing in creating cutting-edge web and mobile applications. Our journey began with a vision to deliver exceptional digital experiences that make a real difference in how businesses operate and grow.</p>
+                <p>Under Om's leadership, we've built a strong foundation in both front-end and back-end technologies, focusing on scalable solutions that solve real-world problems. We're constantly evolving, learning new technologies, and staying at the forefront of development trends.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>30+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <div class="about-buttons">
+                    <a href="#" class="download-cv">Company Profile <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+            <div class="about-image" data-aos="fade-left">
+                <div class="image-container">
+                    <img src="assets/developer image.jpg" alt="Om Pawar - Lead Developer" class="developer-image">
+                    <div class="experience-badge">
+                        <span>Lead</span>
+                        <p>Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header" data-aos="fade-up">
+            <h2>My Services</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="services-grid">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Custom websites and web applications built with modern technologies like React, Vue.js, Node.js, and more.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Responsive Design</li>
+                    <li><i class="fas fa-check"></i> Front-end Development</li>
+                    <li><i class="fas fa-check"></i> Back-end Development</li>
+                    <li><i class="fas fa-check"></i> API Integration</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="service-icon">
+                    <i class="fab fa-android"></i>
+                </div>
+                <h3>Mobile Development</h3>
+                <p>Native and cross-platform mobile applications for iOS and Android using Java, Kotlin, and React Native.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Android Development</li>
+                    <li><i class="fas fa-check"></i> iOS Development</li>
+                    <li><i class="fas fa-check"></i> Cross-platform Apps</li>
+                    <li><i class="fas fa-check"></i> App Optimization</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="service-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Backend Development</h3>
+                <p>Robust server-side applications and APIs using Node.js, Python, PHP, and Java with various databases.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> RESTful APIs</li>
+                    <li><i class="fas fa-check"></i> Database Design</li>
+                    <li><i class="fas fa-check"></i> Server Management</li>
+                    <li><i class="fas fa-check"></i> Authentication Systems</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>User-centered design solutions that enhance user experience and drive engagement.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Wireframing</li>
+                    <li><i class="fas fa-check"></i> Prototyping</li>
+                    <li><i class="fas fa-check"></i> User Research</li>
+                    <li><i class="fas fa-check"></i> Visual Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Featured Projects</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="project-filters" data-aos="fade-up">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="java">Java</button>
+            <button class="filter-btn" data-filter="python">Python</button>
+            <button class="filter-btn" data-filter="php">PHP</button>
+            <button class="filter-btn" data-filter="javascript">JavaScript</button>
+            <button class="filter-btn" data-filter="react">React</button>
+        </div>
+        <div class="project-grid">
+            <!-- File Encryptor and Explorer -->
+            <div class="project-card" data-aos="fade-up" data-category="java">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555952517-2e8e729e0b44?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="File Encryptor and Explorer">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>File Encryptor & Explorer</h3>
+                    <p>A secure file management system built with Advanced Java, featuring file encryption, decryption, and intuitive file exploration capabilities.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>JavaFX</span>
+                        <span>Encryption</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive News App -->
+            <div class="project-card" data-aos="fade-up" data-category="python">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Interactive News App">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Interactive News App</h3>
+                    <p>A dynamic news application built with Python, featuring real-time updates, personalized news feeds, and interactive user interface.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>News API</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dynamic Chart Generator -->
+            <div class="project-card" data-aos="fade-up" data-category="php">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Dynamic Chart Generator">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Dynamic Chart Generator</h3>
+                    <p>A versatile chart generation tool built with PHP, allowing users to create and customize various types of charts and data visualizations.</p>
+                    <div class="project-tech">
+                        <span>PHP</span>
+                        <span>Chart.js</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Maharashtra Map -->
+            <div class="project-card" data-aos="fade-up" data-category="javascript">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Interactive Maharashtra Map">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Interactive Maharashtra Map</h3>
+                    <p>An interactive map visualization of Maharashtra state using JavaScript, featuring district-wise information and dynamic data representation.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>D3.js</span>
+                        <span>GeoJSON</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant Tip Calculator -->
+            <div class="project-card" data-aos="fade-up" data-category="java">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Restaurant Tip Calculator">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Restaurant Tip Calculator</h3>
+                    <p>A user-friendly tip calculator application built with XML and Java, helping users calculate tips and split bills efficiently.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>XML</span>
+                        <span>Android</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cryptocurrency Website -->
+            <div class="project-card" data-aos="fade-up" data-category="react">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1518546305927-5a555bb7020d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Cryptocurrency Website">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Cryptocurrency Website</h3>
+                    <p>A comprehensive cryptocurrency tracking website built with React.js, featuring real-time price updates, charts, and market analysis.</p>
+                    <div class="project-tech">
+                        <span>React.js</span>
+                        <span>API</span>
+                        <span>Redux</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Academic Curriculum System -->
+            <div class="project-card" data-aos="fade-up" data-category="php">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Academic Curriculum System">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Academic Curriculum System</h3>
+                    <p>A comprehensive academic curriculum management system built with PHP Laravel, streamlining course planning and management.</p>
+                    <div class="project-tech">
+                        <span>PHP</span>
+                        <span>Laravel</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gym Management System -->
+            <div class="project-card" data-aos="fade-up" data-category="php">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Gym Management System">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Gym Management System</h3>
+                    <p>A complete gym management solution built with PHP, handling member management, scheduling, payments, and fitness tracking.</p>
+                    <div class="project-tech">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-more-container" data-aos="fade-up">
+            <a href="#" class="view-more-btn">View More Projects <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Technical Skills</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skills-category" data-aos="fade-up">
+                <h3>Frontend Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-vuejs"></i>
+                        <h3>Vue.js</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="100">
+                <h3>Backend Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-node-js"></i>
+                        <h3>Node.js</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-php"></i>
+                        <h3>PHP</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-java"></i>
+                        <h3>Java</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+                <h3>Mobile & Database</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-android"></i>
+                        <h3>Android</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-apple"></i>
+                        <h3>iOS</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>MongoDB</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>MySQL</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Let's Create Something Amazing</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info" data-aos="fade-right">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Location</h3>
+                        <p>Mumbai, India</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>contact@ompawar.dev</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Phone</h3>
+                        <p>+91 98765 43210</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/yourusername" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" data-aos="fade-left">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Gary<span class="highlight">Production</span></div>
+            <p>&copy; 2024 Gary Production. All rights reserved.</p>
+            <p>Designed and developed with <span class="heart">❤️</span> by Om Pawar</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>
